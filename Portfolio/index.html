@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Jimi Nieminen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <div class="topnav-container">
+        <div class="topnav">
+            <h2>The Portfolio Of Jimi Nieminen</h2>
+            <a class="topnav-link" onclick="openTab(event, 'about-me')" id="defaultOpen">About me</a>
+            <a class="topnav-link" onclick="openTab(event, 'education')">Education</a>
+            <a class="topnav-link" onclick="openTab(event, 'working-history')">Working history</a>
+            <a class="topnav-link" onclick="openTab(event, 'experience')">Experience</a>
+        </div>
+    </div>
+
+    <div id="about-me" class="tabcontent">
+
+        <h1>Jimi Nieminen</h1>
+
+        <img src="./images/my_picture.png" alt="">
+
+        <p>My name is Jimi and I have born in 2000 in Virrat in North Pirkanmaa</p>
+
+        <p>This is my web portfolio made with HMTL, CSS and Javascript</p>
+
+        <p>I got interested in programming when I was studying automation engineering at Seinäjoki university of
+            applied
+            sciences. I have two basics of programming courses where I learned C# programming language. After
+            those courses I started to program my own projects. First I make Windows desktop app with C#. Then I
+            found HTML, CSS and Javascript languages and I started to make different projects with those three
+            languages. I also learned the basics of C++ and Python languages.</p>
+
+        <p>Coding is so cool and iteresting
+            I wouldn't want to do that just for hobby, I would like to do this for living.
+        </p>
+
+        <p>You can find all nessecary information about me and above-mentioned projects on this portfolio</p>
+
+    </div>
+
+    <div id="education" class="tabcontent">
+
+        <h1>My education history</h1>
+
+        <div class="btns-ed">
+            <button class="expand-all">
+                <span class="material-symbols-outlined">
+                    expand_all
+                </span>
+                <span>Expand all</span>
+            </button>
+            <button class="collapse-all">
+                <span class="material-symbols-outlined">
+                    collapse_all
+                </span>
+                <span>Collapse all</span>
+            </button>
+        </div>
+
+        <div class="school">
+            <button type="button" class="header">
+                <h2>High school in Virrat</h2>
+            </button>
+
+            <div class="description">
+                <p>I started education in high school at 2016</p>
+                <p>I graduated from high school at 2019</p>
+                <p>I completed 76 courses</p>
+                <p>I graduated with four A levels: mothertongue, english, mathematics and psychology</p>
+            </div>
+        </div>
+
+        <div class="school">
+            <button type="button" class="header">
+                <h2>Seinäjoki university of applied sciences</h2>
+            </button>
+
+            <div class="description">
+                <p>Education: Bachelor of automation engineering</p>
+                <p>Specialisation: Machine automation</p>
+                <p>I started education at 2020</p>
+                <p>I took a degree at 2024</p>
+                <p>I completed 241 credits</p>
+                <p>Two courses of programming: The basics of programming 1 and 2</p>
+                <p>Three courses of PLC programming: Programmable logic controllers, Machine automation 1 and 2</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="working-history" class="tabcontent">
+
+        <h1>My working history</h1>
+
+        <div class="btns-Wh">
+            <button class="expand-all">
+                <span class="material-symbols-outlined">
+                    expand_all
+                </span>
+                <span>Expand all</span>
+            </button>
+            <button class="collapse-all">
+                <span class="material-symbols-outlined">
+                    collapse_all
+                </span>
+                <span>Collapse all</span>
+            </button>
+        </div>
+
+        <div class="job">
+            <button type="button" class="header">
+                <h2>Lapua-ketjut, Lapua</h2>
+            </button>
+
+            <div class="description">
+                <div>
+                    <p>1.Duration: 05/2022 - 07/2022</p>
+                    <p>1.Job description: I oiled conveyor chains. I washed and grind the
+                        parts of the
+                        conveyor chains. I
+                        also used saw to cut metal bars.</p>
+                </div>
+
+                <div>
+                    <p>2.Duration: 03/2023 - 08/2023</p>
+                    <p>2.Job description: I worked at product- and tool designer. I designed new products and developed
+                        old
+                        ones. I also designed tools to simplify and lighten production work. I used Vertex G4 designing
+                        software at my
+                        work.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="job">
+            <button type="button" class="header">
+                <h2>Finncont Oy, Virrat</h2>
+            </button>
+
+            <div class="description">
+                <p>1.Duration: 04/2019 - 06/2019</p>
+                <p>2.Duration: 11/2019 - 12/2019</p>
+                <p>3.Duration: 01/2020 - 07/2020</p>
+                <p>4.Duration: 05/2021 - 08/2021</p>
+                <p>Job description: I worked in different assembly lines where I assembled different plastic products
+                </p>
+            </div>
+        </div>
+
+        <div class="job">
+            <button type="button" class="header">
+                <h2>The city of Virrat, Virrat</h2>
+            </button>
+
+            <div class="description">
+                <p>Duration: Three weeks summer job at june 2018</p>
+                <p>Job description: I used lawn mower to cut grass areas and I cleaned Virrat's park areas</p>
+            </div>
+        </div>
+
+        <div class="job">
+            <button type="button" class="header">
+                <h2>S-market, Virrat</h2>
+            </button>
+
+            <div class="description">
+                <p>Duration: Two weeks summer job at june 2016</p>
+                <p>Job description: I filled and organized store shelfs</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="experience" class="tabcontent">
+        <h1>My experience of different coding languages</h1>
+        <div class="exp-container">
+            <div class="html-css-js">
+                <div class="hcj-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+                    </svg>
+                </div>
+
+                <p>I have done many projects with HTML, CSS and JavaScript languages</p>
+                <p>Part of those projects are made by following step by step from Youtube videos. <br>
+                    The rest of the projects I have done whole by myself. <br>
+                </p>
+                <p>I have also watched HTML, CSS and JavaScript courses from Youtube</p>
+
+                <h3>The list of the projects:</h3>
+
+                <dl>
+                    <div>
+                        <dt>IOS Calculator</dt>
+                        <dd>This is a basic calculator with the same UI as in IOS calculator</dd>
+                        <dd>
+                            <a href="\Example_projects\javascript\IOS_calculator.zip" download="">Download project</a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>IOS Stopwatch</dt>
+                        <dd>This is basic stopwatch with the same UI as in IOS stopwatch</dd>
+                        <dd>
+                            <a href="\Example_projects\javascript\Stopwatch_IOS.zip" download="">Download project</a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Get in the hole - Game</dt>
+                        <dd>This project was my first game project <br>
+                            It is made by using Babylon.js - game engine <br>
+                            The idea of the game is trying to get side to side moving pipe into the hole
+                        </dd>
+                        <dd>
+                            <a href="\Example_projects\javascript\GetInTheHole.zip" download="">Download project</a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Water payment calculator</dt>
+                        <dd>
+                            This project is mobile version of the water payment calculator desktop app
+                            which was made with C#. More about desktop app project in next section. <br>
+                            This project is made with react native
+                        </dd>
+                        <dd>
+                            <a href="\Example_projects\javascript\vesimaksulaskuri.zip" download="">Download project</a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Portfolio</dt>
+                        <dd>This portfolio is made by using HTML, CSS and JavaScript <br>
+                            This is also my biggest project with HTML, CSS and JavaScript
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Portfolio with Vue</dt>
+                        <dd>I have also done a version of this Portfolio with Vue</dd>
+                        <dd>
+                            <a href="/Example_projects/javascript/Portfolio_Vue.7z" download="">Download project</a>
+                        </dd>
+                    </div>
+
+                    <div>
+                        <dt>Portfolio with React</dt>
+                        <dd>I have also done a version of this Portfolio with React</dd>
+                        <dd>
+                            <a href="/Example_projects/javascript/Portfolio_react.7z" download="">Download project</a>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="cs">
+                <div class="cs-header">
+                    <svg preserveAspectRatio="xMidYMid" viewBox="0 -1.428 255.582 290.108"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76-2.052-3.603-5.125-6.622-9.247-9.009-34.025-19.619-68.083-39.178-102.097-58.817-9.17-5.294-18.061-5.1-27.163.27-13.543 7.986-81.348 46.833-101.553 58.536-8.321 4.818-12.37 12.19-12.372 21.771-.013 39.455 0 78.91-.013 118.365 0 4.724.991 8.91 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.987-7.793 2.987-12.518 0 0 0-78.889-.013-118.345"
+                            fill="#a179dc" />
+                        <path
+                            d="m128.182 143.241-125.194 72.084c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.27 34.015-19.64 68.075-39.199 102.105-58.818 4.217-2.44 7.333-5.544 9.386-9.252z"
+                            fill="#280068" />
+                        <path
+                            d="m255.569 84.452c-.002-4.83-1.035-9.098-3.124-12.76l-124.263 71.55 124.413 72.073c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345"
+                            fill="#390091" />
+                        <g fill="#fff">
+                            <path
+                                d="m201.892 116.294v13.474h13.474v-13.474h6.737v13.474h13.474v6.737h-13.474v13.473h13.474v6.737h-13.474v13.474h-6.737v-13.474h-13.474v13.474h-6.737v-13.474h-13.473v-6.737h13.473v-13.473h-13.473v-6.737h13.473v-13.474zm13.474 20.21h-13.474v13.474h13.474z" />
+                            <path
+                                d="m128.457 48.626c35.144 0 65.827 19.086 82.262 47.456l-.16-.273-41.35 23.808c-8.146-13.793-23.08-23.102-40.213-23.294l-.54-.003c-26.125 0-47.305 21.18-47.305 47.305a47.08 47.08 0 0 0 6.239 23.47c8.154 14.235 23.483 23.836 41.067 23.836 17.693 0 33.109-9.723 41.221-24.11l-.197.345 41.287 23.918c-16.255 28.13-46.518 47.157-81.253 47.536l-1.058.006c-35.255 0-66.025-19.204-82.419-47.724-8.003-13.923-12.582-30.064-12.582-47.277 0-52.466 42.532-95 95-95z" />
+                        </g>
+                    </svg>
+                </div>
+
+                <p>C# is the language where all began</p>
+                <p>I have two basic of programming courses in Seinäjoki university of applied sciences.
+                    In the first course I learned just the basics of programming and C# - language.
+                    In the second course I learned to make Windows desktop applications with C# and
+                    Microsoft visual studio forms.
+                </p>
+                <p>I got interested in programming because of those two courses</p>
+                <p>After those two courses I started to deepen my C# skills and make my own projects with C#.
+                    Then I needed to check the water meter of my apartment
+                    and calculate the water payment by myself so I decided to make Windows desktop application
+                    which can calculate water payment
+                </p>
+
+                <h3>The list of the projects:</h3>
+
+                <dl>
+                    <div>
+                        <dt>Water payment calculator</dt>
+                        <dd>With this app a water payment can be calculated and saved to table
+                        </dd>
+                        <dd>
+                            <a href="\Example_projects\cs\Vesimaksulaskuri_2.0.zip" download="">Download project</a>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="cpp">
+                <div class="cpp-header">
+                    <svg viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                        <path
+                            d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761-2.052-3.602-5.125-6.621-9.247-9.008-34.025-19.619-68.083-39.178-102.097-58.817-9.17-5.294-18.061-5.101-27.163.269C100.395 12.39 32.59 51.237 12.385 62.94 4.064 67.757.015 75.129.013 84.711 0 124.166.013 163.62 0 203.076c.002 4.724.991 8.909 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345"
+                            fill="#5C8DBC" />
+                        <path
+                            d="M128.182 143.509L2.988 215.593c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252l-124.413-72.074"
+                            fill="#1A4674" />
+                        <path
+                            d="M91.101 164.861c7.285 12.718 20.98 21.296 36.69 21.296 15.807 0 29.58-8.687 36.828-21.541l-36.437-21.107-37.081 21.352"
+                            fill="#1A4674" />
+                        <path
+                            d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761l-124.263 71.55 124.413 72.074c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345"
+                            fill="#1B598E" />
+                        <path
+                            d="M248.728 148.661h-9.722v9.724h-9.724v-9.724h-9.721v-9.721h9.721v-9.722h9.724v9.722h9.722v9.721M213.253 148.661h-9.721v9.724h-9.722v-9.724h-9.722v-9.721h9.722v-9.722h9.722v9.722h9.721v9.721"
+                            fill="#FFF" />
+                        <path
+                            d="M164.619 164.616c-7.248 12.854-21.021 21.541-36.828 21.541-15.71 0-29.405-8.578-36.69-21.296a42.062 42.062 0 0 1-5.574-20.968c0-23.341 18.923-42.263 42.264-42.263 15.609 0 29.232 8.471 36.553 21.059l36.941-21.272c-14.683-25.346-42.096-42.398-73.494-42.398-46.876 0-84.875 38-84.875 84.874 0 15.378 4.091 29.799 11.241 42.238 14.646 25.48 42.137 42.637 73.634 42.637 31.555 0 59.089-17.226 73.714-42.781l-36.886-21.371"
+                            fill="#FFF" />
+                    </svg>
+                </div>
+
+                <p>I have learned the very basics of the C++ - language by watching video course
+                    from Youtube
+                </p>
+                <p>I have done the basic rock-paper-scissors - console app game with C++</p>
+
+                <h3>The list of the projects:</h3>
+
+                <dl>
+                    <div>
+                        <dt>Rock-Paper-Scissors - game</dt>
+                        <dd>Basic rock-paper-scissors - game in console</dd>
+                        <dd>
+                            <a href="\Example_projects\cpp\Rock_paper_scissors_Game.zip" download="">Download
+                                project</a>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+
+            <div class="py">
+                <div class="py-header">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6zM286.2 404c11.1 0 20.1 9.1 20.1 20.3 0 11.3-9 20.4-20.1 20.4-11 0-20.1-9.2-20.1-20.4 .1-11.3 9.1-20.3 20.1-20.3zM167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8 .1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4zm-6.7-142.6c-11.1 0-20.1-9.1-20.1-20.3 .1-11.3 9-20.4 20.1-20.4 11 0 20.1 9.2 20.1 20.4s-9 20.3-20.1 20.3z" />
+                    </svg>
+                </div>
+
+                <p>I have watched video course of the basics of the Python programming from Youtube
+                    so I learned it likewise the C++</p>
+                <p>I have not done any own projects with Python</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="contact-phone">
+            <span class="material-symbols-outlined">
+                call
+            </span>
+            <a href="tel:+358 40 416 5658">+358 40 416 5658</a>
+        </div>
+
+        <div class="contact-email">
+            <span class="material-symbols-outlined">
+                mail
+            </span>
+            <a href="mailto:nieminenjimi@gmail.com">nieminenjimi@gmail.com</a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

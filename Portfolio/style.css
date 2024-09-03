@@ -1,0 +1,315 @@
+:root {
+    --topnavHeight: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-image: linear-gradient(to right, #E8E8E8, #E0E0E0, #DCDCDC, #D8D8D8, #D3D3D3);
+}
+
+.topnav-container {
+    width: 75%;
+    margin: auto;
+}
+
+.topnav {
+    position: fixed;
+    top: 10px;
+    width: 75%;
+    background-color: #333;
+    overflow: hidden;
+    height: var(--topnavHeight);
+    border-radius: 10px;
+}
+
+.topnav a {
+    cursor: pointer;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.topnav h2 {
+    display: inline-block;
+    color: white;
+    height: inherit;
+    line-height: var(--topnavHeight);
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px 70px;
+    margin-top: 80px;
+    border-top: none;
+    animation: fadeEffect 1s;
+}
+
+.tabcontent p {
+    font-size: 20px;
+}
+
+#about-me {
+    font-family: cursive;
+    padding-bottom: 0;
+}
+
+#about-me p {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+#about-me p:nth-last-child(3) {
+    padding-bottom: 0;
+}
+
+#about-me p:nth-last-child(2) {
+    font-weight: bold;
+}
+
+#about-me img {
+    float: left;
+    margin: 10px 0 0 10px;
+    border: inset 5px grey;
+    border-radius: 10px;
+    width: 150px;
+}
+
+#education h1 {
+    text-align: center;
+}
+
+.school,
+.job {
+    margin-top: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #C0C0C0;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.description {
+    padding: 0 30px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.description p:first-child {
+    margin-top: 10px;
+}
+
+.description p:last-child {
+    margin-bottom: 10px;
+}
+
+.activeH,
+.header:hover {
+    background-color: #808080;
+    color: #E8E8E8;
+}
+
+.header::before {
+    content: "+";
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.activeH::before {
+    content: "-";
+}
+
+#working-history h1 {
+    text-align: center;
+}
+
+.btns-ed,
+.btns-Wh {
+    display: flex;
+    margin-left: 100px;
+}
+
+.expand-all,
+.collapse-all {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background-color: #A9A9A9;
+}
+
+.collapse-all {
+    margin-left: 10px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+}
+
+.contact-phone {
+    display: flex;
+    margin-right: 50px;
+}
+
+.contact-email {
+    display: flex;
+}
+
+.contact div a {
+    color: white;
+    margin-left: 5px;
+}
+
+#experience h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exp-container {
+    display: flex;
+    column-gap: 5px;
+    height: 400px;
+    overflow-y: hidden;
+}
+
+.html-css-js,
+.cs,
+.cpp,
+.py {
+    width: 25%;
+    height: inherit;
+    overflow-y: auto;
+    border: 4px inset;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.hcj-header,
+.cs-header,
+.cpp-header,
+.py-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.hcj-header svg,
+.cs-header svg,
+.cpp-header svg,
+.py-header svg {
+    width: 50px;
+}
+
+.hcj-header svg:nth-child(1n+2) {
+    margin-left: 50px;
+}
+
+.html-css-js p,
+.cs p,
+.cpp p,
+.py p {
+    margin-bottom: 10px;
+}
+
+.html-css-js h3,
+.cs h3,
+.cpp h3,
+.py h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.html-css-js dl,
+.cs dl,
+.cpp dl,
+.py dl {
+    width: 75%;
+    margin: auto;
+}
+
+.html-css-js dt,
+.cs dt,
+.cpp dt,
+.py dt {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.html-css-js dd,
+.cs dd,
+.cpp dd,
+.py dd {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.html-css-js dl div,
+.cs dl div,
+.cpp dl div,
+.py dl div {
+    border: 4px outset;
+    margin-bottom: 5px;
+}
+
+.html-css-js a,
+.cs a,
+.cpp a,
+.py a {
+    color: black;
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
